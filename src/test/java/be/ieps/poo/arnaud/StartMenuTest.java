@@ -31,6 +31,7 @@ public class StartMenuTest {
                 () -> assertEquals(new Double(10.0), plat.getPrix()));
     }
 
+
     @Order(2)
     @Test
     void testPlatAvecDecorateurFrites() {
