@@ -71,5 +71,4 @@ public class StartMenuTest {
                 () -> assertEquals("viande riz", plat.getPreparation()),
                 () -> assertEquals(new Double(15.0), plat.getPrix()));
     }
-
 }
