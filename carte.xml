@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<carte>
+    <plat categorie="poisson">
+        <type>sole</type>
+        <prix>15.00</prix>
+        <description>au feu de bois</description>
+    </plat>
+    <plat categorie="viande">>
+        <type>boeuf</type>
+        <prix>15.00</prix>
+        <description>au grill</description>
+    </plat>
+    <plat categorie="volaille">
+        <type>dinde</type>
+        <prix>15.00</prix>
+        <description>de Noel farcie</description>
+    </plat>
+
+    <accompagnement categorie="pates">
+        <type>spaghetti</type>
+        <prix>5.00</prix>
+        <description>aldente</description>
+    </accompagnement>
+    <accompagnement categorie="riz">
+        <type>basmati</type>
+        <prix>5.00</prix>
+        <description>à la japonaise</description>
+    </accompagnement>
+    <accompagnement categorie="pommesDeTerre">
+        <type>Nicolas</type>
+        <prix>5.00</prix>
+        <description>en chemise au four</description>
+    </accompagnement>
+    <accompagnement categorie="frites">
+        <type>Nicolas</type>
+        <prix>5.00</prix>
+        <description>faites maison</description>
+    </accompagnement>
+
+    <dessert categorie="cafe">
+        <type>latte</type>
+        <prix>5.00</prix>
+        <description>avec des gourmandises</description>
+    </dessert>
+    <dessert categorie="fruit">
+        <type>pomme</type>
+        <prix>5.00</prix>
+        <description>pomme sucrée</description>
+    </dessert>
+    <dessert categorie="glace">
+        <type>vanille</type>
+        <prix>5.00</prix>
+        <description>enrobé de chocolat</description>
+    </dessert>
+    <dessert categorie="patisserie">
+        <type>eclair</type>
+        <prix>5.00</prix>
+        <description>eclair fondant chocolat</description>
+    </dessert>
+</carte>
