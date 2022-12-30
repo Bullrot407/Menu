@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eclipse-userlibraries>
+  <library name="Maven: org.assertj:assertj-core:3.23.1">
+    <archive path="C:/Users/neo40/.m2/repository/org/assertj/assertj-core/3.23.1/assertj-core-3.23.1.jar" />
+  </library>
+  <library name="Maven: net.bytebuddy:byte-buddy:1.12.10">
+    <archive path="C:/Users/neo40/.m2/repository/net/bytebuddy/byte-buddy/1.12.10/byte-buddy-1.12.10.jar" />
+  </library>
+  <library name="Maven: org.junit.jupiter:junit-jupiter-api:5.9.1">
+    <archive path="C:/Users/neo40/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.9.1/junit-jupiter-api-5.9.1.jar" />
+  </library>
+  <library name="Maven: org.opentest4j:opentest4j:1.2.0">
+    <archive path="C:/Users/neo40/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar" />
+  </library>
+  <library name="Maven: org.junit.platform:junit-platform-commons:1.9.1">
+    <archive path="C:/Users/neo40/.m2/repository/org/junit/platform/junit-platform-commons/1.9.1/junit-platform-commons-1.9.1.jar" />
+  </library>
+  <library name="Maven: org.apiguardian:apiguardian-api:1.1.2">
+    <archive path="C:/Users/neo40/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar" />
+  </library>
+  <library name="Maven: org.junit.jupiter:junit-jupiter-engine:5.9.1">
+    <archive path="C:/Users/neo40/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.9.1/junit-jupiter-engine-5.9.1.jar" />
+  </library>
+  <library name="Maven: org.junit.platform:junit-platform-engine:1.9.1">
+    <archive path="C:/Users/neo40/.m2/repository/org/junit/platform/junit-platform-engine/1.9.1/junit-platform-engine-1.9.1.jar" />
+  </library>
+  <library name="Maven: org.junit.jupiter:junit-jupiter:5.9.1">
+    <archive path="C:/Users/neo40/.m2/repository/org/junit/jupiter/junit-jupiter/5.9.1/junit-jupiter-5.9.1.jar" />
+  </library>
+  <library name="Maven: org.junit.jupiter:junit-jupiter-params:5.9.1">
+    <archive path="C:/Users/neo40/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.9.1/junit-jupiter-params-5.9.1.jar" />
+  </library>
+  <library name="Maven: junit:junit:3.8.1">
+    <archive path="C:/Users/neo40/.m2/repository/junit/junit/3.8.1/junit-3.8.1.jar" />
+  </library>
+  <library name="jdom-2.0.2">
+    <archive path="C:/Users/neo40/Downloads/jdom-2.0.2.jar" />
+  </library>
+  <library name="Maven: org.jdom:jdom:2.0.2">
+    <archive path="C:/Users/neo40/.m2/repository/org/jdom/jdom/2.0.2/jdom-2.0.2.jar" />
+  </library>
+</eclipse-userlibraries>
+
