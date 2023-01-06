@@ -15,7 +15,6 @@
         <prix>15.00</prix>
         <description>de Noel farcie</description>
     </plat>
-
     <accompagnement categorie="pates">
         <type>spaghetti</type>
         <prix>5.00</prix>
@@ -32,7 +31,7 @@
         <description>en chemise au four</description>
     </accompagnement>
     <accompagnement categorie="frites">
-        <type>Nicolas</type>
+        <type>large</type>
         <prix>5.00</prix>
         <description>faites maison</description>
     </accompagnement>

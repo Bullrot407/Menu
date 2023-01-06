@@ -7,13 +7,11 @@ import java.util.ArrayList;
 import java.util.HashMap;
 
 public class MenuController {
-    public HashMap<String, ArrayList<Plat>> listeCommande;
-    public String nomFichier = "carte.xml";
-    Loader loader = new Loader(nomFichier);
-    public void initialisationCarte(){
-        loader.recuperationPlats();
-        loader.recuperationAccompagnements();
-        loader.recuperationDesserts();
+    private Map<Integer, ArrayList<Plat>> listeCommande = new HashMap<>();
+    private Carte carte;
+
+    public MenuController(Carte carte) {
+        this.carte = carte;
     }
 
     public void initialisationCommande() {
@@ -39,10 +37,15 @@ public class MenuController {
         /*       return nbMenuCommande;*/
     }
 
-    public Double prixTotalCommande() {
-        Double prixTotal = 0.00;
-        for (Plat plat : listeCommande.get("Table 1")){
+    /**
+     * @param table la table de la commande
+     */
+    public double prixTotalCommande(int table) {
 
+        if (!listeCommande.containsKey(table)) return 0;
+
+        double prixTotal = 0;
+        for (Plat plat : listeCommande.get(table)) {
             prixTotal += plat.getPrix();
         }
 

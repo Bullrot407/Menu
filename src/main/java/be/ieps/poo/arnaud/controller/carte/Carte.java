@@ -1,10 +1,7 @@
 package be.ieps.poo.arnaud.controller.carte;
 
-import be.ieps.poo.arnaud.model.plats.Plat;
-import org.jdom2.Element;
-
 import java.util.ArrayList;
-import java.util.Iterator;
+
 
 public class Carte {
     private static volatile Carte instance;

@@ -75,31 +75,7 @@ public class TestPlat {
     }
 
 
-    @Order(4)
-    @Test
-    void configurationMenu() {
-        menu = factory.getPlat("viande");
-        menu.setType("blanc bleu");
-        menu.setPrix(15.00);
-        menu = new Frites(menu);
-        menu = new Cafe(menu);
 
-        menuController.ajoutMenuCommande("table 01", menu);
-
-        menu = factory.getPlat("poisson");
-        menu.setType("sole");
-        menu.setPrix(10.00);
-        menu = new Riz(menu);
-        menu = new Glace(menu);
-
-        menuController.ajoutMenuCommande("table 1", menu);
-        menuController.nombreMenuCommande();
-        for (Plat plat : menuController.listeCommande.get("Table 1")) {
-            System.out.println(plat.getPreparation());
-            System.out.println(plat.getPrix());
-        }
-        System.out.println(menuController.prixTotalCommande());
-    }
 }
 
     /*
